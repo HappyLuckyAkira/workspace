@@ -22,7 +22,7 @@ ENV LANG=en_US.UTF-8 \
 # OpenGL
 # Qt5
 # GTK4
-RUN apt-get update && apt-get install -y --no-install-recommends build-essential manpages-dev \
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential manpages-dev googletest\
     git unzip dosfstools curl wget vim sudo ssh tzdata ca-certificates \
     xauth uuid-dev \
     dbus dbus-x11 alsa-utils pulseaudio pulseaudio-utils mesa-utils x11-apps \
